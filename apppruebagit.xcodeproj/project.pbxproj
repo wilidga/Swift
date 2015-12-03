@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0314CCA91C10116900D42127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314CCA81C10116900D42127 /* AppDelegate.swift */; };
+		0314CCAB1C10116900D42127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314CCAA1C10116900D42127 /* ViewController.swift */; };
+		0314CCAE1C10116900D42127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0314CCAC1C10116900D42127 /* Main.storyboard */; };
+		0314CCB01C10116900D42127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0314CCAF1C10116900D42127 /* Assets.xcassets */; };
+		0314CCB31C10116900D42127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0314CCB11C10116900D42127 /* LaunchScreen.storyboard */; };
+		0314CCBE1C10116900D42127 /* apppruebagitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0314CCBD1C10116900D42127 /* apppruebagitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0314CCBA1C10116900D42127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0314CC9D1C10116900D42127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0314CCA41C10116900D42127;
+			remoteInfo = apppruebagit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0314CCA51C10116900D42127 /* apppruebagit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apppruebagit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0314CCA81C10116900D42127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0314CCAA1C10116900D42127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0314CCAD1C10116900D42127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0314CCAF1C10116900D42127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0314CCB21C10116900D42127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0314CCB41C10116900D42127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0314CCB91C10116900D42127 /* apppruebagitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apppruebagitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0314CCBD1C10116900D42127 /* apppruebagitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apppruebagitTests.swift; sourceTree = "<group>"; };
+		0314CCBF1C10116900D42127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0314CCA21C10116900D42127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0314CCB61C10116900D42127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0314CC9C1C10116900D42127 = {
+			isa = PBXGroup;
+			children = (
+				0314CCA71C10116900D42127 /* apppruebagit */,
+				0314CCBC1C10116900D42127 /* apppruebagitTests */,
+				0314CCA61C10116900D42127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0314CCA61C10116900D42127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0314CCA51C10116900D42127 /* apppruebagit.app */,
+				0314CCB91C10116900D42127 /* apppruebagitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0314CCA71C10116900D42127 /* apppruebagit */ = {
+			isa = PBXGroup;
+			children = (
+				0314CCA81C10116900D42127 /* AppDelegate.swift */,
+				0314CCAA1C10116900D42127 /* ViewController.swift */,
+				0314CCAC1C10116900D42127 /* Main.storyboard */,
+				0314CCAF1C10116900D42127 /* Assets.xcassets */,
+				0314CCB11C10116900D42127 /* LaunchScreen.storyboard */,
+				0314CCB41C10116900D42127 /* Info.plist */,
+			);
+			path = apppruebagit;
+			sourceTree = "<group>";
+		};
+		0314CCBC1C10116900D42127 /* apppruebagitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0314CCBD1C10116900D42127 /* apppruebagitTests.swift */,
+				0314CCBF1C10116900D42127 /* Info.plist */,
+			);
+			path = apppruebagitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0314CCA41C10116900D42127 /* apppruebagit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0314CCC21C10116900D42127 /* Build configuration list for PBXNativeTarget "apppruebagit" */;
+			buildPhases = (
+				0314CCA11C10116900D42127 /* Sources */,
+				0314CCA21C10116900D42127 /* Frameworks */,
+				0314CCA31C10116900D42127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apppruebagit;
+			productName = apppruebagit;
+			productReference = 0314CCA51C10116900D42127 /* apppruebagit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0314CCB81C10116900D42127 /* apppruebagitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0314CCC51C10116900D42127 /* Build configuration list for PBXNativeTarget "apppruebagitTests" */;
+			buildPhases = (
+				0314CCB51C10116900D42127 /* Sources */,
+				0314CCB61C10116900D42127 /* Frameworks */,
+				0314CCB71C10116900D42127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0314CCBB1C10116900D42127 /* PBXTargetDependency */,
+			);
+			name = apppruebagitTests;
+			productName = apppruebagitTests;
+			productReference = 0314CCB91C10116900D42127 /* apppruebagitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0314CC9D1C10116900D42127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = vengapps;
+				TargetAttributes = {
+					0314CCA41C10116900D42127 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0314CCB81C10116900D42127 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0314CCA41C10116900D42127;
+					};
+				};
+			};
+			buildConfigurationList = 0314CCA01C10116900D42127 /* Build configuration list for PBXProject "apppruebagit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0314CC9C1C10116900D42127;
+			productRefGroup = 0314CCA61C10116900D42127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0314CCA41C10116900D42127 /* apppruebagit */,
+				0314CCB81C10116900D42127 /* apppruebagitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0314CCA31C10116900D42127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0314CCB31C10116900D42127 /* LaunchScreen.storyboard in Resources */,
+				0314CCB01C10116900D42127 /* Assets.xcassets in Resources */,
+				0314CCAE1C10116900D42127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0314CCB71C10116900D42127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0314CCA11C10116900D42127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0314CCAB1C10116900D42127 /* ViewController.swift in Sources */,
+				0314CCA91C10116900D42127 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0314CCB51C10116900D42127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0314CCBE1C10116900D42127 /* apppruebagitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0314CCBB1C10116900D42127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0314CCA41C10116900D42127 /* apppruebagit */;
+			targetProxy = 0314CCBA1C10116900D42127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0314CCAC1C10116900D42127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0314CCAD1C10116900D42127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0314CCB11C10116900D42127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0314CCB21C10116900D42127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0314CCC01C10116900D42127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0314CCC11C10116900D42127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0314CCC31C10116900D42127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = apppruebagit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.apppruebagit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0314CCC41C10116900D42127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = apppruebagit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.apppruebagit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0314CCC61C10116900D42127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = apppruebagitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.apppruebagitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apppruebagit.app/apppruebagit";
+			};
+			name = Debug;
+		};
+		0314CCC71C10116900D42127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = apppruebagitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.apppruebagitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apppruebagit.app/apppruebagit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0314CCA01C10116900D42127 /* Build configuration list for PBXProject "apppruebagit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0314CCC01C10116900D42127 /* Debug */,
+				0314CCC11C10116900D42127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0314CCC21C10116900D42127 /* Build configuration list for PBXNativeTarget "apppruebagit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0314CCC31C10116900D42127 /* Debug */,
+				0314CCC41C10116900D42127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0314CCC51C10116900D42127 /* Build configuration list for PBXNativeTarget "apppruebagitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0314CCC61C10116900D42127 /* Debug */,
+				0314CCC71C10116900D42127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0314CC9D1C10116900D42127 /* Project object */;
+}
