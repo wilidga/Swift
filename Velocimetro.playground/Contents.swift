@@ -31,29 +31,29 @@ class Auto {
     
     
     func cambioDeVelocidad() -> (actual : Int, velocidadEnCadena : String ){
-        let leyenda : String
+        let strdesc : String
         estadoNumerico = self.velocidad.rawValue
         switch self.velocidad{
         case .Apagado:
             self.velocidad = .VelocidadBaja
-            leyenda = "Apagado"
+            strdesc = "Apagado"
         case .VelocidadBaja:
             self.velocidad = .VelocidadMedia
-            leyenda = "Velocidad Baja"
+            strdesc = "Velocidad Baja"
         case .VelocidadMedia:
             self.velocidad = .VelocidadAlta
-            leyenda = "Velocidad Media"
+            strdesc = "Velocidad Media"
         case .VelocidadAlta:
             self.velocidad = .VelocidadMedia
-            leyenda = "Velocidad Alta"
+            strdesc = "Velocidad Alta"
         }
-        return (actual: estadoNumerico, velocidadEnCadena: leyenda)
+        return (actual: estadoNumerico, velocidadEnCadena: strdesc)
     }
 }
 var auto = Auto()
-var tupla : (actual : Int, velocidadEnCadena : String )
+var ttupla : (actual : Int, velocidadEnCadena : String )
 for var i in 1...20 {
-    tupla = auto.cambioDeVelocidad()
-    print("\(tupla.actual), \(tupla.velocidadEnCadena)")
+    ttupla = auto.cambioDeVelocidad()
+    print("\(ttupla.actual), \(ttupla.velocidadEnCadena)")
 }
     
