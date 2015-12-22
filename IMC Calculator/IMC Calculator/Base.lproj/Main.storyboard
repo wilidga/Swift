@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IMC_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-gb-LXZ">
+                                <rect key="frame" x="218" y="70" width="165" height="246"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRX-EH-7Pk">
+                                        <rect key="frame" x="34" y="63" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textFielDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="HrY-q8-VPO"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese Estatura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-I7-lSK">
+                                        <rect key="frame" x="20" y="155" width="125" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JJk-kO-wYR">
+                                        <rect key="frame" x="34" y="196" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textFielDoneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="8ha-qq-2Al"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese Peso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yr6-Ze-z7B">
+                                        <rect key="frame" x="32" y="20" width="99" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="SRX-EH-7Pk" firstAttribute="top" secondItem="yr6-Ze-z7B" secondAttribute="bottom" constant="22" id="3tw-N4-Z0b"/>
+                                    <constraint firstItem="JJk-kO-wYR" firstAttribute="top" secondItem="kDg-I7-lSK" secondAttribute="bottom" constant="20" id="53c-nl-lZ6"/>
+                                    <constraint firstItem="SRX-EH-7Pk" firstAttribute="trailing" secondItem="yr6-Ze-z7B" secondAttribute="trailing" id="ECv-H0-xLF"/>
+                                    <constraint firstItem="JJk-kO-wYR" firstAttribute="centerX" secondItem="kDg-I7-lSK" secondAttribute="centerX" id="Jef-t0-jOq"/>
+                                    <constraint firstAttribute="bottom" secondItem="JJk-kO-wYR" secondAttribute="bottom" constant="20" id="MOt-8c-EP8"/>
+                                    <constraint firstItem="JJk-kO-wYR" firstAttribute="centerX" secondItem="DRa-gb-LXZ" secondAttribute="centerX" id="P69-ge-sks"/>
+                                    <constraint firstItem="JJk-kO-wYR" firstAttribute="trailing" secondItem="SRX-EH-7Pk" secondAttribute="trailing" id="S4P-Vg-7kq"/>
+                                    <constraint firstItem="SRX-EH-7Pk" firstAttribute="leading" secondItem="JJk-kO-wYR" secondAttribute="leading" id="SsR-D7-IDW"/>
+                                    <constraint firstItem="kDg-I7-lSK" firstAttribute="top" secondItem="SRX-EH-7Pk" secondAttribute="bottom" constant="62" id="lab-L6-ifD"/>
+                                    <constraint firstItem="yr6-Ze-z7B" firstAttribute="leading" secondItem="DRa-gb-LXZ" secondAttribute="leading" constant="32" id="maR-cR-atg"/>
+                                    <constraint firstItem="yr6-Ze-z7B" firstAttribute="top" secondItem="DRa-gb-LXZ" secondAttribute="top" constant="20" id="tGw-0f-6EL"/>
+                                    <constraint firstAttribute="trailing" secondItem="kDg-I7-lSK" secondAttribute="trailing" constant="20" id="wml-HO-Wad"/>
+                                    <constraint firstItem="kDg-I7-lSK" firstAttribute="leading" secondItem="DRa-gb-LXZ" secondAttribute="leading" constant="20" id="yaS-Zh-zgY"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ1-Bl-ka0">
+                                <rect key="frame" x="272" y="345" width="56" height="30"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="calcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7d-wy-Ix5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PQ1-Bl-ka0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2SU-EB-gFs"/>
+                            <constraint firstItem="DRa-gb-LXZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4B0-Kx-Vhi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PQ1-Bl-ka0" secondAttribute="bottom" constant="225" id="GCg-rk-Mfq"/>
+                            <constraint firstItem="PQ1-Bl-ka0" firstAttribute="top" secondItem="DRa-gb-LXZ" secondAttribute="bottom" constant="29" id="JYi-QV-Msn"/>
+                            <constraint firstItem="DRa-gb-LXZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="dX4-PC-Zbh"/>
+                        </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="BYZ-38-t0r" eventType="touchDown" id="izz-kY-CH4"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="estatura" destination="JJk-kO-wYR" id="mJX-YL-NGf"/>
+                        <outlet property="peso" destination="SRX-EH-7Pk" id="Ygt-af-Fpc"/>
+                        <outlet property="scroll" destination="DRa-gb-LXZ" id="M0r-sx-UGs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Peticion_al_servidor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese ISBN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoe-h5-MWL">
+                                <rect key="frame" x="251" y="40" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nab-Wy-89c">
+                                <rect key="frame" x="220" y="89" width="171" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0Np-cT-QPH"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B7Y-4D-nC6">
+                                <rect key="frame" x="167" y="138" width="281" height="261"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="yYh-C7-x0Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" spellCheckingType="no"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGN-7B-H61">
+                                <rect key="frame" x="282" y="402" width="36" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="btnLimpiar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2c-JI-T3c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4hv-rA-MWl"/>
+                            <constraint firstItem="B7Y-4D-nC6" firstAttribute="top" secondItem="Nab-Wy-89c" secondAttribute="bottom" constant="19" id="6jf-Ow-yYN"/>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7iR-cM-bNC"/>
+                            <constraint firstItem="Uoe-h5-MWL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Atz-f2-4Cz"/>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FRU-QH-KMO"/>
+                            <constraint firstItem="Nab-Wy-89c" firstAttribute="top" secondItem="Uoe-h5-MWL" secondAttribute="bottom" constant="28" id="GcM-F1-QOk"/>
+                            <constraint firstItem="B7Y-4D-nC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7.5" id="HSR-rA-Uvm"/>
+                            <constraint firstItem="Uoe-h5-MWL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HWO-qG-QwI"/>
+                            <constraint firstItem="Nab-Wy-89c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5.5" id="JdD-er-451"/>
+                            <constraint firstItem="B7Y-4D-nC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7.5" id="LCp-9d-sTB"/>
+                            <constraint firstItem="Uoe-h5-MWL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ScI-HX-RpJ"/>
+                            <constraint firstItem="Nab-Wy-89c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5.5" id="WMn-f6-MJg"/>
+                            <constraint firstItem="Nab-Wy-89c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5.5" id="cMU-AR-OcQ"/>
+                            <constraint firstItem="B7Y-4D-nC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7.5" id="d1w-fI-1Yn"/>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="117" id="h84-dE-q9n"/>
+                            <constraint firstItem="B7Y-4D-nC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="7.5" id="k85-un-tHO"/>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="top" secondItem="B7Y-4D-nC6" secondAttribute="bottom" constant="3" id="rmI-no-0mN"/>
+                            <constraint firstItem="Nab-Wy-89c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5.5" id="uBG-R9-K0w"/>
+                            <constraint firstItem="dGN-7B-H61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wei-Q6-788"/>
+                            <constraint firstItem="Uoe-h5-MWL" firstAttribute="leading" secondItem="Nab-Wy-89c" secondAttribute="leading" constant="31" id="wsO-eC-MvD"/>
+                            <constraint firstItem="Uoe-h5-MWL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="yGp-Mx-DUl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ISBN" destination="Nab-Wy-89c" id="JBa-gS-h4j"/>
+                        <outlet property="Resultado" destination="B7Y-4D-nC6" id="BFu-WU-aRI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="298"/>
+        </scene>
+    </scenes>
+</document>
