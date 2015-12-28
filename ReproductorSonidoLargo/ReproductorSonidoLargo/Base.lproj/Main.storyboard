@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReproductorSonidoLargo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Sfk-uK-MIZ">
+                                <rect key="frame" x="180" y="47" width="240" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="pYa-Fy-GKW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tj-rq-pO1">
+                                <rect key="frame" x="180" y="308" width="30" height="30"/>
+                                <state key="normal" title="play"/>
+                                <connections>
+                                    <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="d70-nT-CLb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7e-Of-Q54">
+                                <rect key="frame" x="279" y="308" width="42" height="30"/>
+                                <state key="normal" title="pausa"/>
+                                <connections>
+                                    <action selector="pausa" destination="BYZ-38-t0r" eventType="touchUpInside" id="p5K-eZ-mRF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrX-kC-J5Q">
+                                <rect key="frame" x="382" y="308" width="31" height="30"/>
+                                <state key="normal" title="stop"/>
+                                <connections>
+                                    <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cfk-fR-6hp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sfk-uK-MIZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0oD-dA-U15"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sfk-uK-MIZ" secondAttribute="bottom" constant="338" id="5AN-gF-yCw"/>
+                            <constraint firstItem="1Tj-rq-pO1" firstAttribute="baseline" secondItem="b7e-Of-Q54" secondAttribute="baseline" id="9Qp-vq-VnH"/>
+                            <constraint firstItem="1Tj-rq-pO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-105" id="E3G-Vx-1yl"/>
+                            <constraint firstItem="Sfk-uK-MIZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HLM-AO-m3V"/>
+                            <constraint firstItem="JrX-kC-J5Q" firstAttribute="baseline" secondItem="b7e-Of-Q54" secondAttribute="baseline" id="Jvm-KQ-Bi0"/>
+                            <constraint firstItem="Sfk-uK-MIZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MNx-Hf-YZo"/>
+                            <constraint firstItem="1Tj-rq-pO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-105" id="MRh-iy-ggF"/>
+                            <constraint firstItem="JrX-kC-J5Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="97.5" id="Mc2-Vc-E3J"/>
+                            <constraint firstItem="b7e-Of-Q54" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QsD-v0-wT0"/>
+                            <constraint firstItem="b7e-Of-Q54" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SWB-Ie-4Gf"/>
+                            <constraint firstItem="1Tj-rq-pO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-105" id="Ud9-pE-fMG"/>
+                            <constraint firstItem="Sfk-uK-MIZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dMM-WJ-tfd"/>
+                            <constraint firstItem="Sfk-uK-MIZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="hWW-ee-W1m"/>
+                            <constraint firstItem="b7e-Of-Q54" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hZO-4L-RcD"/>
+                            <constraint firstItem="b7e-Of-Q54" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hfe-xq-BOv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1Tj-rq-pO1" secondAttribute="bottom" constant="262" id="iwk-rR-Iub"/>
+                            <constraint firstItem="1Tj-rq-pO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-105" id="yKr-Hz-rCE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="314"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fotd.jpg" width="1000" height="1000"/>
+    </resources>
+</document>
