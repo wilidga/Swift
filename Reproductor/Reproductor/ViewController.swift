@@ -28,13 +28,14 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
 //    var randomIndex = 0
     
     
+    // arreglo de canciones ramdon con un mismo tipo de formato
+    var songsArray = ["Basso", "Blow", "Bottle","Frog","Funk","Glass","Hero","Morse","Ping"]
     
-    var voiceArray = ["Basso", "Blow", "Bottle","Frog","Funk","Glass","Hero","Morse","Ping"]
-    
+    // funcion que escoge cual tocar
     func playRandomsongs() {
-        let random = Int(arc4random_uniform(UInt32(voiceArray.count)))
+        let random = Int(arc4random_uniform(UInt32(songsArray.count)))
         
-        let soundFile = voiceArray[random]
+        let soundFile = songsArray[random]
         let path =  soundFile
         let fullPath = NSBundle.mainBundle().pathForResource(path, ofType: "aiff")!
         let fileLocation = NSString(string:fullPath)
@@ -65,6 +66,8 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+            //lista de canciones del  Uipickerview
         Canciones.append(["Basso","aiff","1.jpg"])
                 Canciones.append(["Blow","aiff","2.jpg"])
                 Canciones.append(["Bottle","aiff","3.jpg"])
@@ -92,7 +95,7 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
         return self.Canciones[row][0]
     }
 
-    
+    //func para tocar la seleccionada de la lista
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.Titulo.text = self.Canciones[row][0]
         self.portadaImageView.image = UIImage(named:self.Canciones[row][2])
@@ -120,13 +123,15 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
         
         self.portadaImageView.image = UIImage(named:"1.jpg")
 
+        
+        // este inicia el random
         if mySwitch.on{
            
            
             
             for index in 0...9 {
                 
-                                           playRandomsongs()
+                                           playRandomsongs() // funcion que ejecuta camcion por cancion al azar
                 sleep(3)
 
                 print(index)
@@ -139,7 +144,7 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
     }
     
     @IBAction func sliderValueChanged(sender: UISlider) {
-        
+      //sube el volume al reproductor
         let valorvol = Int(sender.value)
         
         dispatch_async(dispatch_get_main_queue()) {  // agrega el contenido de modo asincrono
@@ -149,6 +154,8 @@ class ViewController: UIViewController  , UIPickerViewAccessibilityDelegate , UI
         }
     }
 
+    
+   //botones de control de canciones.
     @IBAction func tocar() {
         if !reproductor.playing{
             reproductor.play()
