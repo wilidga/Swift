@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037573221C3B6A39007C8A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037573211C3B6A39007C8A63 /* AppDelegate.swift */; };
+		037573251C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 037573231C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodeld */; };
+		037573271C3B6A39007C8A63 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037573261C3B6A39007C8A63 /* MasterViewController.swift */; };
+		037573291C3B6A39007C8A63 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037573281C3B6A39007C8A63 /* DetailViewController.swift */; };
+		0375732C1C3B6A39007C8A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0375732A1C3B6A39007C8A63 /* Main.storyboard */; };
+		0375732E1C3B6A39007C8A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0375732D1C3B6A39007C8A63 /* Assets.xcassets */; };
+		037573311C3B6A39007C8A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0375732F1C3B6A39007C8A63 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0375731E1C3B6A38007C8A63 /* buscardorLibrosTablas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscardorLibrosTablas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037573211C3B6A39007C8A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037573241C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buscardorLibrosTablas.xcdatamodel; sourceTree = "<group>"; };
+		037573261C3B6A39007C8A63 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		037573281C3B6A39007C8A63 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0375732B1C3B6A39007C8A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0375732D1C3B6A39007C8A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037573301C3B6A39007C8A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037573321C3B6A39007C8A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0375731B1C3B6A38007C8A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037573151C3B6A38007C8A63 = {
+			isa = PBXGroup;
+			children = (
+				037573201C3B6A39007C8A63 /* buscardorLibrosTablas */,
+				0375731F1C3B6A38007C8A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0375731F1C3B6A38007C8A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0375731E1C3B6A38007C8A63 /* buscardorLibrosTablas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037573201C3B6A39007C8A63 /* buscardorLibrosTablas */ = {
+			isa = PBXGroup;
+			children = (
+				037573211C3B6A39007C8A63 /* AppDelegate.swift */,
+				037573261C3B6A39007C8A63 /* MasterViewController.swift */,
+				037573281C3B6A39007C8A63 /* DetailViewController.swift */,
+				0375732A1C3B6A39007C8A63 /* Main.storyboard */,
+				0375732D1C3B6A39007C8A63 /* Assets.xcassets */,
+				0375732F1C3B6A39007C8A63 /* LaunchScreen.storyboard */,
+				037573321C3B6A39007C8A63 /* Info.plist */,
+				037573231C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodeld */,
+			);
+			path = buscardorLibrosTablas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0375731D1C3B6A38007C8A63 /* buscardorLibrosTablas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037573351C3B6A39007C8A63 /* Build configuration list for PBXNativeTarget "buscardorLibrosTablas" */;
+			buildPhases = (
+				0375731A1C3B6A38007C8A63 /* Sources */,
+				0375731B1C3B6A38007C8A63 /* Frameworks */,
+				0375731C1C3B6A38007C8A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buscardorLibrosTablas;
+			productName = buscardorLibrosTablas;
+			productReference = 0375731E1C3B6A38007C8A63 /* buscardorLibrosTablas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037573161C3B6A38007C8A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = vengapps;
+				TargetAttributes = {
+					0375731D1C3B6A38007C8A63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 28SLDM4ZAR;
+					};
+				};
+			};
+			buildConfigurationList = 037573191C3B6A38007C8A63 /* Build configuration list for PBXProject "buscardorLibrosTablas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037573151C3B6A38007C8A63;
+			productRefGroup = 0375731F1C3B6A38007C8A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0375731D1C3B6A38007C8A63 /* buscardorLibrosTablas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0375731C1C3B6A38007C8A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037573311C3B6A39007C8A63 /* LaunchScreen.storyboard in Resources */,
+				0375732E1C3B6A39007C8A63 /* Assets.xcassets in Resources */,
+				0375732C1C3B6A39007C8A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0375731A1C3B6A38007C8A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037573221C3B6A39007C8A63 /* AppDelegate.swift in Sources */,
+				037573251C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodeld in Sources */,
+				037573271C3B6A39007C8A63 /* MasterViewController.swift in Sources */,
+				037573291C3B6A39007C8A63 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0375732A1C3B6A39007C8A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0375732B1C3B6A39007C8A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0375732F1C3B6A39007C8A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037573301C3B6A39007C8A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037573331C3B6A39007C8A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037573341C3B6A39007C8A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037573361C3B6A39007C8A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = buscardorLibrosTablas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.buscardorLibrosTablas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		037573371C3B6A39007C8A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = buscardorLibrosTablas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.buscardorLibrosTablas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037573191C3B6A38007C8A63 /* Build configuration list for PBXProject "buscardorLibrosTablas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037573331C3B6A39007C8A63 /* Debug */,
+				037573341C3B6A39007C8A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037573351C3B6A39007C8A63 /* Build configuration list for PBXNativeTarget "buscardorLibrosTablas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037573361C3B6A39007C8A63 /* Debug */,
+				037573371C3B6A39007C8A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		037573231C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				037573241C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodel */,
+			);
+			currentVersion = 037573241C3B6A39007C8A63 /* buscardorLibrosTablas.xcdatamodel */;
+			path = buscardorLibrosTablas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 037573161C3B6A38007C8A63 /* Project object */;
+}

@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03063B471C38D136001AE437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03063B461C38D136001AE437 /* AppDelegate.swift */; };
+		03063B491C38D136001AE437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03063B481C38D136001AE437 /* ViewController.swift */; };
+		03063B4C1C38D136001AE437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03063B4A1C38D136001AE437 /* Main.storyboard */; };
+		03063B4E1C38D136001AE437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03063B4D1C38D136001AE437 /* Assets.xcassets */; };
+		03063B511C38D136001AE437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03063B4F1C38D136001AE437 /* LaunchScreen.storyboard */; };
+		03063B5C1C38D137001AE437 /* SacudidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03063B5B1C38D137001AE437 /* SacudidaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03063B581C38D137001AE437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03063B3B1C38D136001AE437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03063B421C38D136001AE437;
+			remoteInfo = Sacudida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03063B431C38D136001AE437 /* Sacudida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sacudida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03063B461C38D136001AE437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03063B481C38D136001AE437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03063B4B1C38D136001AE437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03063B4D1C38D136001AE437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03063B501C38D136001AE437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03063B521C38D136001AE437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03063B571C38D137001AE437 /* SacudidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SacudidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03063B5B1C38D137001AE437 /* SacudidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SacudidaTests.swift; sourceTree = "<group>"; };
+		03063B5D1C38D137001AE437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03063B401C38D136001AE437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03063B541C38D137001AE437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03063B3A1C38D136001AE437 = {
+			isa = PBXGroup;
+			children = (
+				03063B451C38D136001AE437 /* Sacudida */,
+				03063B5A1C38D137001AE437 /* SacudidaTests */,
+				03063B441C38D136001AE437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03063B441C38D136001AE437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03063B431C38D136001AE437 /* Sacudida.app */,
+				03063B571C38D137001AE437 /* SacudidaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03063B451C38D136001AE437 /* Sacudida */ = {
+			isa = PBXGroup;
+			children = (
+				03063B461C38D136001AE437 /* AppDelegate.swift */,
+				03063B481C38D136001AE437 /* ViewController.swift */,
+				03063B4A1C38D136001AE437 /* Main.storyboard */,
+				03063B4D1C38D136001AE437 /* Assets.xcassets */,
+				03063B4F1C38D136001AE437 /* LaunchScreen.storyboard */,
+				03063B521C38D136001AE437 /* Info.plist */,
+			);
+			path = Sacudida;
+			sourceTree = "<group>";
+		};
+		03063B5A1C38D137001AE437 /* SacudidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				03063B5B1C38D137001AE437 /* SacudidaTests.swift */,
+				03063B5D1C38D137001AE437 /* Info.plist */,
+			);
+			path = SacudidaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03063B421C38D136001AE437 /* Sacudida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03063B601C38D137001AE437 /* Build configuration list for PBXNativeTarget "Sacudida" */;
+			buildPhases = (
+				03063B3F1C38D136001AE437 /* Sources */,
+				03063B401C38D136001AE437 /* Frameworks */,
+				03063B411C38D136001AE437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sacudida;
+			productName = Sacudida;
+			productReference = 03063B431C38D136001AE437 /* Sacudida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03063B561C38D137001AE437 /* SacudidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03063B631C38D137001AE437 /* Build configuration list for PBXNativeTarget "SacudidaTests" */;
+			buildPhases = (
+				03063B531C38D137001AE437 /* Sources */,
+				03063B541C38D137001AE437 /* Frameworks */,
+				03063B551C38D137001AE437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03063B591C38D137001AE437 /* PBXTargetDependency */,
+			);
+			name = SacudidaTests;
+			productName = SacudidaTests;
+			productReference = 03063B571C38D137001AE437 /* SacudidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03063B3B1C38D136001AE437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = vengapps;
+				TargetAttributes = {
+					03063B421C38D136001AE437 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 28SLDM4ZAR;
+					};
+					03063B561C38D137001AE437 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 28SLDM4ZAR;
+						TestTargetID = 03063B421C38D136001AE437;
+					};
+				};
+			};
+			buildConfigurationList = 03063B3E1C38D136001AE437 /* Build configuration list for PBXProject "Sacudida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03063B3A1C38D136001AE437;
+			productRefGroup = 03063B441C38D136001AE437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03063B421C38D136001AE437 /* Sacudida */,
+				03063B561C38D137001AE437 /* SacudidaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03063B411C38D136001AE437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03063B511C38D136001AE437 /* LaunchScreen.storyboard in Resources */,
+				03063B4E1C38D136001AE437 /* Assets.xcassets in Resources */,
+				03063B4C1C38D136001AE437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03063B551C38D137001AE437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03063B3F1C38D136001AE437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03063B491C38D136001AE437 /* ViewController.swift in Sources */,
+				03063B471C38D136001AE437 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03063B531C38D137001AE437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03063B5C1C38D137001AE437 /* SacudidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03063B591C38D137001AE437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03063B421C38D136001AE437 /* Sacudida */;
+			targetProxy = 03063B581C38D137001AE437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03063B4A1C38D136001AE437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03063B4B1C38D136001AE437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03063B4F1C38D136001AE437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03063B501C38D136001AE437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03063B5E1C38D137001AE437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03063B5F1C38D137001AE437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03063B611C38D137001AE437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sacudida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.Sacudida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03063B621C38D137001AE437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sacudida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.Sacudida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03063B641C38D137001AE437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SacudidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.SacudidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacudida.app/Sacudida";
+			};
+			name = Debug;
+		};
+		03063B651C38D137001AE437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SacudidaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vengapps.SacudidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sacudida.app/Sacudida";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03063B3E1C38D136001AE437 /* Build configuration list for PBXProject "Sacudida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03063B5E1C38D137001AE437 /* Debug */,
+				03063B5F1C38D137001AE437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03063B601C38D137001AE437 /* Build configuration list for PBXNativeTarget "Sacudida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03063B611C38D137001AE437 /* Debug */,
+				03063B621C38D137001AE437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03063B631C38D137001AE437 /* Build configuration list for PBXNativeTarget "SacudidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03063B641C38D137001AE437 /* Debug */,
+				03063B651C38D137001AE437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03063B3B1C38D136001AE437 /* Project object */;
+}
