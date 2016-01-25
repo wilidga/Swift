@@ -50,6 +50,7 @@
                                 <state key="normal" title="Calcular"/>
                                 <connections>
                                     <action selector="CalcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j2j-oP-xgc"/>
+                                    <segue destination="Qdg-iH-h3A" kind="show" id="TXr-2r-17N"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,7 +64,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="375" y="326"/>
+            <point key="canvasLocation" x="35" y="330"/>
+        </scene>
+        <!--Vista Resultados-->
+        <scene sceneID="XhL-Iz-cnB">
+            <objects>
+                <viewController id="Qdg-iH-h3A" customClass="VistaResultados" customModule="CalculadoraIMC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ml4-0w-ipM"/>
+                        <viewControllerLayoutGuide type="bottom" id="cZ8-xW-cXL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x7B-3s-rS7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c69-eH-ZcM">
+                                <rect key="frame" x="279" y="109" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffO-MY-23v">
+                                <rect key="frame" x="279" y="180" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c69-eH-ZcM" firstAttribute="top" secondItem="Ml4-0w-ipM" secondAttribute="bottom" constant="89" id="IYb-CX-vHv"/>
+                            <constraint firstItem="ffO-MY-23v" firstAttribute="centerX" secondItem="x7B-3s-rS7" secondAttribute="centerX" id="MJb-WX-Hfg"/>
+                            <constraint firstItem="c69-eH-ZcM" firstAttribute="centerX" secondItem="x7B-3s-rS7" secondAttribute="centerX" id="Vny-bX-51u"/>
+                            <constraint firstItem="ffO-MY-23v" firstAttribute="top" secondItem="c69-eH-ZcM" secondAttribute="bottom" constant="50" id="WCi-80-tM0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Resultado" destination="ffO-MY-23v" id="Wx6-9y-ked"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLZ-1k-tDg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="330"/>
         </scene>
     </scenes>
 </document>

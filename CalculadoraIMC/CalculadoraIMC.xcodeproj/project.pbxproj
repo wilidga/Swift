@@ -13,6 +13,7 @@
 		03130E251C1FDC8900C477C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03130E241C1FDC8900C477C0 /* Assets.xcassets */; };
 		03130E281C1FDC8900C477C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03130E261C1FDC8900C477C0 /* LaunchScreen.storyboard */; };
 		03130E331C1FDC8900C477C0 /* CalculadoraIMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03130E321C1FDC8900C477C0 /* CalculadoraIMCTests.swift */; };
+		031BF9EA1C436FE800574682 /* VistaResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BF9E91C436FE800574682 /* VistaResultados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		03130E2E1C1FDC8900C477C0 /* CalculadoraIMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraIMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03130E321C1FDC8900C477C0 /* CalculadoraIMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraIMCTests.swift; sourceTree = "<group>"; };
 		03130E341C1FDC8900C477C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031BF9E91C436FE800574682 /* VistaResultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				03130E241C1FDC8900C477C0 /* Assets.xcassets */,
 				03130E261C1FDC8900C477C0 /* LaunchScreen.storyboard */,
 				03130E291C1FDC8900C477C0 /* Info.plist */,
+				031BF9E91C436FE800574682 /* VistaResultados.swift */,
 			);
 			path = CalculadoraIMC;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				03130E201C1FDC8900C477C0 /* ViewController.swift in Sources */,
 				03130E1E1C1FDC8900C477C0 /* AppDelegate.swift in Sources */,
+				031BF9EA1C436FE800574682 /* VistaResultados.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +394,7 @@
 				03130E391C1FDC8900C477C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03130E3A1C1FDC8900C477C0 /* Build configuration list for PBXNativeTarget "CalculadoraIMCTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				03130E3C1C1FDC8900C477C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

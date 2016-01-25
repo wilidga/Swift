@@ -57,8 +57,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     }
     
+ 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let Resultado = imc()
+        let SigVista = segue.destinationViewController as! controllerRespuesta
+     
+        SigVista.respIMC = Resultado
+        
+        
+    }
+    
     @IBAction func calcularIMC(sender: AnyObject) {
         
+        imc()
+        
+        
+    }
+
+    func imc() ->Double{
         var IMC : Double
         let PesoLocal : Double?
         PesoLocal = Double (self.peso.text!)!
@@ -66,8 +83,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         IMC = PesoLocal!/(EstaturaLocal * EstaturaLocal)
         print ("El resutado es  \(IMC)")
         
-        
+        return IMC
+    
     }
-
 }
 

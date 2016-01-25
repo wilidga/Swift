@@ -1,15 +1,14 @@
 //
-//  ViewController.swift
-//  PruebaGit
+//  SecondViewController.swift
+//  Turismo
 //
-//  Created by Wilman Garcia De Leon on 1/9/16.
+//  Created by Wilman Garcia De Leon on 1/10/16.
 //  Copyright © 2016 vengapps. All rights reserved.
 //
 
 import UIKit
-//modif 1
-//modif 2
-class ViewController: UIViewController {
+
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

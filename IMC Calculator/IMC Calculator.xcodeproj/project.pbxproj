@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031BF9EC1C4372E900574682 /* controllerRespuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BF9EB1C4372E900574682 /* controllerRespuesta.swift */; };
 		0373875D1C226921004A2502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373875C1C226921004A2502 /* AppDelegate.swift */; };
 		0373875F1C226921004A2502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0373875E1C226921004A2502 /* ViewController.swift */; };
 		037387621C226921004A2502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037387601C226921004A2502 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031BF9EB1C4372E900574682 /* controllerRespuesta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controllerRespuesta.swift; sourceTree = "<group>"; };
 		037387591C226921004A2502 /* IMC Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMC Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0373875C1C226921004A2502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0373875E1C226921004A2502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				037387631C226921004A2502 /* Assets.xcassets */,
 				037387651C226921004A2502 /* LaunchScreen.storyboard */,
 				037387681C226921004A2502 /* Info.plist */,
+				031BF9EB1C4372E900574682 /* controllerRespuesta.swift */,
 			);
 			path = "IMC Calculator";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031BF9EC1C4372E900574682 /* controllerRespuesta.swift in Sources */,
 				0373875F1C226921004A2502 /* ViewController.swift in Sources */,
 				0373875D1C226921004A2502 /* AppDelegate.swift in Sources */,
 			);
@@ -390,6 +394,7 @@
 				037387781C226921004A2502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		037387791C226921004A2502 /* Build configuration list for PBXNativeTarget "IMC CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				0373877B1C226921004A2502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

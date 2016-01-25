@@ -70,6 +70,7 @@
                                 <state key="normal" title="Calcular"/>
                                 <connections>
                                     <action selector="calcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7d-wy-Ix5"/>
+                                    <segue destination="4hh-Y0-Noj" kind="show" id="QFc-gW-uK7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -93,6 +94,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Controller Respuesta-->
+        <scene sceneID="icP-FB-AJO">
+            <objects>
+                <viewController id="4hh-Y0-Noj" customClass="controllerRespuesta" customModule="IMC_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yc9-dq-wTV"/>
+                        <viewControllerLayoutGuide type="bottom" id="GQj-wz-bQh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BkD-KR-Zo1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwS-0J-JeF">
+                                <rect key="frame" x="279" y="148" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0V-nt-oCq">
+                                <rect key="frame" x="262" y="54" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RwS-0J-JeF" firstAttribute="centerX" secondItem="BkD-KR-Zo1" secondAttribute="centerX" id="6sh-zY-HPx"/>
+                            <constraint firstItem="RwS-0J-JeF" firstAttribute="top" secondItem="B0V-nt-oCq" secondAttribute="bottom" constant="73" id="Djd-IN-weL"/>
+                            <constraint firstItem="B0V-nt-oCq" firstAttribute="centerX" secondItem="BkD-KR-Zo1" secondAttribute="centerX" id="Pok-mw-oVO"/>
+                            <constraint firstItem="B0V-nt-oCq" firstAttribute="top" secondItem="yc9-dq-wTV" secondAttribute="bottom" constant="34" id="o8T-Mw-RUG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="respuestaIMC" destination="RwS-0J-JeF" id="Vlr-kY-z5g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZy-2O-GpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1422" y="297"/>
         </scene>
     </scenes>
 </document>
