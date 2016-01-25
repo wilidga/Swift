@@ -12,8 +12,11 @@ import CoreLocation
 
 class ViewController: UIViewController ,CLLocationManagerDelegate{
 
+    
+    
+    
     @IBOutlet weak var mapa: MKMapView!
-      private var manejador = CLLocationManager()
+    private var manejador = CLLocationManager()
     var latitude: Double = 0.0
     var longitude: Double = 0.0
     var titulo : String = ""
@@ -36,14 +39,7 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         manejador.requestAlwaysAuthorization()
         startLocation = nil
         
-        var punto = CLLocationCoordinate2D()
-        punto.longitude = 19.52748
-        punto.latitude = -96.92315
-        let pin = MKPointAnnotation()
-        pin.title = "Jalapa"
-        pin.subtitle = "Veracruz"
-        pin.coordinate = punto
-        mapa.addAnnotation(pin)
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,6 +55,7 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         if status == .AuthorizedAlways{
             manejador.startUpdatingLocation()
             mapa.showsUserLocation = true
+
         }else{
             manejador.stopUpdatingLocation()
             mapa.showsUserLocation = false
@@ -98,7 +95,7 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
             
 
             print(moveMetersnew )
-            print(moveMeterslast )  
+            print(moveMeterslast )
             
             //        ultima distancia
             moveMeterslast += moveMetersnew
@@ -106,19 +103,47 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         
         }
         
+        let posicionActual : CLLocation = locations.last!
         
         
 //        print(distanceBetween)
    
         
+         let center = CLLocationCoordinate2D(latitude: posicionActual.coordinate.latitude, longitude: posicionActual.coordinate.longitude)
         
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         
+        mapa.setRegion(region, animated: true)
         
  
         
         
     }
     
+    @IBAction func TipoMapa(sender: UISegmentedControl) {
+        switch (sender.selectedSegmentIndex) {
+            
+        case 0:
+            mapa.mapType = MKMapType.Standard
+            break
+            
+        case 1:
+            mapa.mapType = MKMapType.Satellite
+            break
+            
+        case 2:
+            mapa.mapType = MKMapType.Hybrid
+            break
+            
+        default:
+            mapa.mapType = MKMapType.Standard
+            break
+        }
+
+        
+        
+        
+    }
     func addPoint(latidue: Double, longitude : Double, titulo : String, Subtitulo: String){
    
         
@@ -130,7 +155,7 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         punto.latitude = latidue
         let pin = MKPointAnnotation()
         pin.title = titulo
-        pin.subtitle = "Distancia:  " + Subtitulo
+        pin.subtitle = "Distancia:  " + Subtitulo + "Metros"
         pin.coordinate = punto
         mapa.addAnnotation(pin)
         

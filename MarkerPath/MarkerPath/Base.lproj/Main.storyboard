@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,19 +18,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iFv-re-z4D">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="N8e-eK-RZv">
+                                <rect key="frame" x="20" y="75" width="560" height="426"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="kzg-hO-tGc">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="426"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mge-p3-aRY">
+                                                <rect key="frame" x="0.0" y="0.0" width="182" height="29"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <segments>
+                                                    <segment title="Normal"/>
+                                                    <segment title="Satelite"/>
+                                                    <segment title="Hibrido"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="TipoMapa:" destination="BYZ-38-t0r" eventType="valueChanged" id="CkP-RX-Bsr"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iFv-re-z4D">
+                                                <rect key="frame" x="0.0" y="28" width="560" height="398"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="398" id="0Ze-gt-oAF"/>
+                                                </constraints>
+                                            </mapView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="iFv-re-z4D" firstAttribute="centerX" secondItem="kzg-hO-tGc" secondAttribute="centerX" id="ZFp-tw-SLr"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N8e-eK-RZv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="9qK-Wc-nj3"/>
+                            <constraint firstItem="N8e-eK-RZv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="F2Z-y9-uku"/>
+                            <constraint firstItem="N8e-eK-RZv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KzR-VT-zNS"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="mapa" destination="iFv-re-z4D" id="vHE-s2-ms9"/>
+                        <outlet property="mapa" destination="iFv-re-z4D" id="lpH-r2-P3G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="322"/>
+            <point key="canvasLocation" x="679" y="405"/>
         </scene>
     </scenes>
 </document>
